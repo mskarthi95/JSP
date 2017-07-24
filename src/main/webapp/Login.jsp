@@ -14,8 +14,19 @@
   margin-top:50px;
   padding:25px;
   width:500px;
-  border: 25px solid skyblue;
+  border: 10px solid skyblue;
 }
+	label {
+			display: inline-block;
+			width: 500px;
+			text-align: center;
+		}
+  .bts{
+    margin-left:200px;
+  }
+  .btc{
+    margin-left:15px;
+  }
 </style>
 </head>
 
@@ -39,15 +50,18 @@
 
 <h2>Sign up for Event</h2>
 <label>Username: <input title="Enter your username" required type="text" required pattern="\w+" name="username" placeholder="Create Username"></label>
-<label>Password: <input title="Password must contain at least 6 characters, including UPPER/lowercase and numbers" placeholder="Create Password"type="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" name="pwd1" onchange="
+<br/>
+<label>Password: &nbsp; &nbsp; &nbsp; <input title="Password must contain at least 6 characters, including UPPER/lowercase and numbers" placeholder="Create Password"type="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" name="pwd1" onchange="
   this.setCustomValidity(this.validity.patternMismatch ? this.title : '');
   if(this.checkValidity()) form.pwd2.pattern = this.value;
 "></label>
+<br/>
 <label>Confirm Password: <input title="Please enter the same Password as above" placeholder="Confirm Password"type="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" name="pwd2" onchange="
   this.setCustomValidity(this.validity.patternMismatch ? this.title : '');
 "></label>
-<button type="submit" class="btn btn-info btn-lg">Sign Up</button>
+<button type="submit" class="btn btn-success btn-md bts">Sign Up</button>
 
+<button type="reset" class="btn btn-danger btn-md btc">Cancel</button>
 
 </form>
 </div>
