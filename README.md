@@ -2,7 +2,7 @@
 
 ## STEP 1:
 
-### Create Maven WebApp architecture
+### Create Maven WebApp architecture.
 ---
 
 > mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=JspJSON -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
@@ -21,7 +21,7 @@
 
 ## STEP 5:
 
-### Created a Registration form with Validation
+### Created a Registration form with Validation.
 
 ## STEP 6:
 
@@ -29,7 +29,7 @@
 
 ## STEP 7:
 
-### Used annotation instead of web.xml
+### Used annotation instead of web.xml.
 
 ## STEP 8:
 
