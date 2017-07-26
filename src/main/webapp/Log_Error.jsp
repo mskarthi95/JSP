@@ -30,6 +30,11 @@ select{
 h5{color:red;}
 </style>
 
+<script>
+$(document).ready(function(){
+    alert("User name or Password is inCorrect!!");
+})
+</script>
    </head>
 
 <body>
@@ -37,11 +42,11 @@ h5{color:red;}
 
     <form action="eventregister.jsp" method="post">  
     <label for="username">User Name:</label>
-   <input type="text" name="username" id="username"/><br/><br/> 
+   <input type="text" placeholder="UserName" name="username" id="username"/><br/><br/> 
    <label for="username">Password:</label> 
-    <input type="password" name="userpass"/><br/><br/>  
-<h5 >User Name or password error</h5>
-    <br/><br/>
+    <input placeholder="password" type="password" name="userpass"/><br/><br/>  
+
+    <br/>
       <button type="submit" class="btn btn-primary bt">Sign in</button> 
     
     </form>  

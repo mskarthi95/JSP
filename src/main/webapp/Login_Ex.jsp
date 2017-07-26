@@ -22,7 +22,7 @@
     width:150px;
 }
 body {
-    background-image: url("http://www.whizjuniors.com/Content/img/banner.jpg");
+    background-image: url("http://www.bringingtheworldthemadness.com/img/intro-background.jpg");
 }
 select{
     width:150px;
@@ -32,15 +32,27 @@ select{
    </head>
 
 <body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><img src="fav.jpg" width="50" height="50"></a>
+    </div>
+    
+      <a href="Home.jsp"> <button class="btn btn-success">Home</button></a></li>
+     
+
+   <a href="Login.jsp" <button class="btn btn-Warning navbar-btn">Sign UP</button></a>
+  </div>
+</nav>
+
 <div class="login" align="center">
 
     <form action="eventregister.jsp" method="post">  
     <label for="username">User Name:</label>
-   <input type="text" name="username" id="username"/><br/><br/> 
+   <input required placeholder="UserName" type="text" name="username" id="username"/><br/><br/> 
    <label for="username">Password:</label> 
-    <input type="password" name="userpass"/><br/><br/>  
+    <input required placeholder="password" type="password" name="userpass"/><br/><br/>  
 
-    <br/><br/>
       <button type="submit" class="btn btn-primary bt">Sign in</button> 
     
     </form>  

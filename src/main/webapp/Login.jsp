@@ -10,11 +10,12 @@
 
 <style>
 .signup{
-  margin-left:400px;
-  margin-top:135px;
-  padding:25px;
-  width:500px;
-  border: 10px solid skyblue;
+   border: 10px solid skyblue;
+    margin-top:150px;
+    margin-left:400px;
+    padding:50px;
+    width:600px;
+    background-color:white;
 }
 	label {
 			display: inline-block;
@@ -27,6 +28,9 @@
   .btc{
     margin-left:15px;
   }
+  body {
+    background-image: url("http://www.whizjuniors.com/Content/img/banner.jpg");
+}
 </style>
 </head>
 

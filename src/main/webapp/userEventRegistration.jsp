@@ -35,7 +35,11 @@
 			margin-left:300px;
 		}
 	</style>
-	
+	<script>
+	$(document).ready(function(){
+		alert("Welcome "+name);
+	})
+	</script>
 
 </head>
 
